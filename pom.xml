@@ -45,12 +45,12 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version><span class="math-inline">\{spring\.version\}</version\>
-</dependency\>
-<<7\>dependency\>
-<groupId\>org\.springframework</groupId\></6\>
-<artifactId\>spring\-context</artifactId\>
-<version\></span>{spring.version}</version>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>${spring.version}</version>
     </dependency>
 
   </dependencies>
@@ -96,10 +96,9 @@
     </plugins>
   </build>
 
-  <build>
-    ...
-  </build>
-  
   <resources>
     <resource>
-      <directory>src/main/webapp</
+      <directory>src/main/webapp</directory>
+    </resource>
+  </resources>
+</project>
